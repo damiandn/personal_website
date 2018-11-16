@@ -1,36 +1,103 @@
-#MainNameHeader {
-    padding-top: 10%;
-    font-size: 250%;
+.MainNameHeader {
+    padding-top: 5%;
+    font-size: 350%;
     letter-spacing: 6px;
     word-spacing: 15px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.cv_text {
+
+    font-size: 120%;
+
 }
 
 h3 {
      font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    color: rgb(0, 0, 0);
     
     
 }
 
+
+#cv_text {
+    
+color:rgb(255, 0, 0);
+
+}
+
+
+#test_menu {
+    background: url("https://res.cloudinary.com/damiandn/image/upload/v1540046057/card_hero_new.png") center center / cover no-repeat; 
+    
+}
+
+#index_header {
+    background: url("https://res.cloudinary.com/damiandn/image/upload/v1540046057/card_hero_new.png") center center / cover no-repeat;
+    height: 100px;
+}
 
 a {
-    color: black;
+   
     text-decoration: underline;
+    color: rgb(0, 0, 0);
     
 }
 
-.item a  {
- color:black;
- text-decoration: none;
-    
+
+.item a {
+     text-decoration: none;
 }
+
+.item a:hover {
+     color:rgb(0,0,0);
+}
+
+
+.item  {
+ color: rgb(0, 0, 0);
+ text-decoration: none;
+ font-size: 130%;    
+}
+
+
 
 .page_header {
+    font-size: 350%;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-top: 1%;
+    padding-bottom:1%;
     text-align: center;
+     color: rgb(0, 0, 0);
 }
 
 .page_subhead {
+    padding-top: 2%;
     text-align: center;
+    font-size:200%;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+
+.centered_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image_label {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }

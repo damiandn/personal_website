@@ -5,6 +5,11 @@ app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));   
 
 
+var serveStatic = require('serve-static')
+
+app.use(express.static(__dirname + '/views'))
+
+
 //ROUTES
 
 app.get("/", function(req, res){
@@ -45,9 +50,21 @@ app.get("/microscopy", function(req, res) {
     
 });
 
+
+app.get('/media/vid.mp4', function (req, res, next) {
+    res.sendFile(path.join(__dirname, 'media', 'vid.mp4'));
+});
+
+app.get('/media/test.png', function (req, res, next) {
+    res.sendFile(path.join(__dirname, 'media', 'test.png'));
+});
+
+
 app.listen(process.env.PORT, process.env.IP, function() {
    console.log("Server Started!");
 });
+
+
 
 
  

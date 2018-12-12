@@ -50,6 +50,11 @@ a {
 }
 
 
+.mainImage {
+ margin: 0 auto; 
+ width: 100px; 
+}
+
 .item a {
      text-decoration: none;
 }
